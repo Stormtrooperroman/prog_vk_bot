@@ -25,7 +25,7 @@ SECRET_KEY = 'u598s=x8km$s=rw8enu(posl1i%tzo5xw667_k29*f2jto8f$4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["90b936f9d844.ngrok.io"]
+ALLOWED_HOSTS = ["porg-bot-vk.herokuapp.com"]
 
 
 # Application definition
