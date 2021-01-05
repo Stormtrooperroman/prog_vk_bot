@@ -14,7 +14,7 @@ def index(request):
     body = json.loads(request.body)
     print(body)
     if body == { "type": "confirmation", "group_id": 194135917 }:
-        return HttpResponse("eb541d7e")
+        return HttpResponse("2976a444")
     if body["type"] == 'message_new':
         user_id = body["object"]["message"]["from_id"]
         msg = body["object"]["message"]["text"]
